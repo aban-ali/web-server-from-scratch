@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Football Academy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="main">
+
+    <img src="images/background1.jpeg" alt="Mesut Ozil" class="side-img">
+    <div class="container">
+        <h1>Join Our Football Academy</h1>
+        <p>Train like a pro. Start your journey today.</p>
+
+        <form id="callbackForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="tel" id="phone" placeholder="Phone Number" required>
+            <button type="submit">Request a Call</button>
+        </form>
+
+        <div id="response" style="display: none; color: aquamarine; border-radius: 5px;">
+        </div>
+    </div>
+    <img src="images/leftbg.jpeg" alt="Christiano..." class="side-img">
+    
+</div>
+
+<!-- Chat Icon -->
+<div class="chat-icon" id="chatIcon">💬</div>
+
+<!-- Chat Window -->
+<div class="chatbot" id="chatbot">
+    <div class="chat-header">
+        Chat with us
+        <span id="closeChat" style="float:right; cursor:pointer;">✖</span>
+    </div>
+    <div class="chat-body" id="chatBody"></div>
+    <input type="text" id="chatInput" placeholder="Type a message...">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

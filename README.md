@@ -4,8 +4,6 @@ A lightweight multithreaded HTTP server written in C that serves a football acad
 
 This project demonstrates low-level systems programming, networking, and concurrent request handling without relying on external frameworks.
 
----
-
 ## 🚀 Features
 
 * 🔌 Built using **POSIX sockets (TCP)**
@@ -15,8 +13,6 @@ This project demonstrates low-level systems programming, networking, and concurr
 * 📝 Processes **form submissions (POST)** with custom parsing
 * 🎯 Dynamic response generation (token + staff assignment)
 * 📦 Minimal dependencies (pure C, standard libraries)
-
----
 
 ## 🧠 Project Overview
 
@@ -30,8 +26,6 @@ This server simulates a **football academy enquiry system**:
   * A **token number**
   * Assigns a **staff member**
   * Returns a dynamic HTML response
-
----
 
 ## 🏗️ Architecture
 
@@ -51,8 +45,6 @@ Thread per Client (pthread)
         └── POST → Parse JSON → Generate response
 ```
 
----
-
 ## 📁 Project Structure
 
 ```
@@ -65,8 +57,6 @@ Thread per Client (pthread)
 │   └── assets/
 └── README.md
 ```
-
----
 
 ## ⚙️ How It Works
 
@@ -93,8 +83,6 @@ Thread per Client (pthread)
   * Assigns staff from a predefined set of employees (can be connected to a database).
 * Returns dynamic HTML response
 
----
-
 ## 🧪 Example Response
 
 ```html
@@ -105,8 +93,6 @@ Phone number: 1234567890
 Token Number: 12345
 Enquiry Assigned to: Virat Kohli
 ```
-
----
 
 ## 🛠️ Build & Run
 
@@ -128,8 +114,6 @@ Server will start on:
 http://localhost:8008
 ```
 
----
-
 ## 🔍 Key Concepts Demonstrated
 
 * Low-level **network programming**
@@ -139,8 +123,6 @@ http://localhost:8008
 * File I/O and streaming
 * Basic request routing logic
 
----
-
 ## ⚠️ Limitations
 
 * Not production-ready HTTP parser
@@ -148,8 +130,6 @@ http://localhost:8008
 * No input validation / security hardening
 * Fixed buffer sizes
 * Basic MIME type handling
-
----
 
 ## 🔮 Future Improvements
 
